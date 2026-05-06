@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4 - Galería de Fotos</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <h1 id="titulo-pagina">Mis Proyectos</h1>
+        
+        <!-- Cuadrícula con tus fotos originales -->
+        <div class="cuadricula-galeria" id="mi-galeria">
+            
+            <div class="item-galeria">
+                <img src="img/Ap-141.jpg" alt="Fotografía">
+                <div class="info"><h3>Pasarela</h3></div>
+            </div>
+
+            <div class="item-galeria">
+                <img src="img/Ap-671.jpg" alt="Fotografía">
+                <div class="info"><h3>Retratos</h3></div>
+            </div>
+
+            <div class="item-galeria">
+                <img src="img/DW-39.jpg" alt="Fotografía">
+                <div class="info"><h3>Conciertos</h3></div>
+            </div>
+
+            <div class="item-galeria">
+                <img src="img/KG-BT-98.JPG" alt="Fotografía">
+                <div class="info"><h3>Espectaculos</h3></div>
+            </div>
+
+            <div class="item-galeria">
+                <img src="img/MLAD-3.jpg" alt="Fotografía">
+                <div class="info"><h3>Festivales</h3></div>
+            </div>
+
+            <div class="item-galeria">
+                <img src="img/PF-14.jpg" alt="Fotografía">
+                <div class="info"><h3>SE</h3></div>
+            </div>
+
+        </div> 
+
+        <div class="controles">
+            <button onclick="animarEntrada()">✨ Re-animar</button>
+            <button onclick="aplicarFiltroBN()" class="btn-destacado">🌓 Filtro B/N</button>
+            <button onclick="reiniciarGaleria()">🔄 Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
